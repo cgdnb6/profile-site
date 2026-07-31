@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>陈国冬｜个人介绍</title>
+  <link rel="stylesheet" href="./styles.css"/>
+</head>
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <div class="brand">
+        <div class="brand__avatar" aria-hidden="true">陈</div>
+        <div>
+          <div class="brand__name">陈国冬</div>
+          <div class="brand__title">人工智能｜Python / C｜机器人与系统开发</div>
+        </div>
+      </div>
+
+      <nav class="nav">
+        <a href="#about">关于</a>
+        <a href="#experience">经历</a>
+        <a href="#education">教育</a>
+        <a href="#skills">技能</a>
+        <a href="#awards">荣誉</a>
+        <a href="#contact">联系</a>
+        <button id="themeBtn" class="btn btn--ghost" type="button">切换主题</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero" id="about">
+      <h1>你好，我是 <span class="highlight">陈国冬</span></h1>
+      <p class="lead">
+        自我学习能力强，做事认真，专业知识扎实；工作态度积极，能够独立工作，
+        具备团队精神与良好文化素质。
+      </p>
+      <div class="chips">
+        <span class="chip">Python</span>
+        <span class="chip">C 语言</span>
+        <span class="chip">TensorFlow / PyTorch</span>
+        <span class="chip">NumPy / Pandas</span>
+        <span class="chip">机器人编程与调试</span>
+        <span class="chip">系统优化与维护</span>
+      </div>
+    </section>
+
+    <section class="card" id="experience">
+      <h2>工作经历</h2>
+
+      <div class="timeline">
+        <div class="tl-item">
+          <div class="tl-time">2024.07 – 2024.08</div>
+          <div class="tl-content">
+            <h3>深谷云创科技发展有限公司｜机器人工程师</h3>
+            <ul>
+              <li>负责软件的编程和调试</li>
+              <li>负责机器人的测试和维护</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-time">2025.12 – 2026.01</div>
+          <div class="tl-content">
+            <h3>济南原点科技咨询有限公司｜Python 前端工程师</h3>
+            <ul>
+              <li>负责系统优化和维护</li>
+              <li>参与系统架构设计与开发</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-time">2026.01 – 2026.03</div>
+          <div class="tl-content">
+            <h3>兰剑智能科技股份有限公司｜点检助理</h3>
+            <ul>
+              <li>负责资源管理与调动分配</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid">
+      <section class="card" id="education">
+        <h2>教育背景</h2>
+        <h3>山东航空学院｜人工智能（2022.09 – 2026.07）</h3>
+        <ul>
+          <li>掌握 Python 核心语法，熟悉 NumPy、Pandas 等数据处理库</li>
+          <li>学习 TensorFlow / PyTorch，完成 MNIST 手写数字识别入门项目</li>
+        </ul>
+      </section>
+
+      <section class="card" id="skills">
+        <h2>技能</h2>
+        <div class="skills">
+          <div class="skills__group">
+            <h4>编程</h4>
+            <p>Python、C 语言</p>
+          </div>
+          <div class="skills__group">
+            <h4>数据与 AI</h4>
+            <p>NumPy、Pandas、TensorFlow、PyTorch</p>
+          </div>
+          <div class="skills__group">
+            <h4>办公</h4>
+            <p>Word、Excel、PPT（熟练）</p>
+          </div>
+          <div class="skills__group">
+            <h4>语言</h4>
+            <p>普通话、英语</p>
+          </div>
+        </div>
+
+        <details class="details">
+          <summary>主修课程（展开）</summary>
+          <p class="muted">
+            PLC 可编程系统、电工电子学、控制工程基础、C 语言程序设计、Python 程序设计、智能控制、信号与系统、
+            最优化方法、模式识别原理与应用、嵌入式系统、神经网络与深度学习、计算机视觉基础等。
+          </p>
+        </details>
+      </section>
+    </section>
+
+    <section class="card" id="awards">
+      <h2>获得荣誉</h2>
+      <ul>
+        <li>省级优秀学生</li>
+        <li>大学生英语四级证书（CET-4）</li>
+      </ul>
+    </section>
+
+    <section class="card" id="contact">
+      <h2>联系方式</h2>
+      <div class="contact">
+        <div class="contact__item">
+          <div class="label">手机</div>
+          <div class="value"><a href="tel:18865781126">18865781126</a></div>
+        </div>
+        <div class="contact__item">
+          <div class="label">邮箱</div>
+          <div class="value"><a href="mailto:3446686166@qq.com">3446686166@qq.com</a></div>
+        </div>
+        <div class="contact__item">
+          <div class="label">地址</div>
+          <div class="value">山东省德州市乐陵市</div>
+        </div>
+      </div>
+
+      <p class="muted tip">
+        提示：如果你不想公开手机号/邮箱，可在部署前删除此处或改成“可私信获取”。
+      </p>
+    </section>
+
+    <footer class="footer">
+      <div class="muted">© <span id="year"></span> 陈国冬｜个人介绍网站</div>
+    </footer>
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+</html>

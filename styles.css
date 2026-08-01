@@ -9,6 +9,7 @@
   --shadow: 0 20px 60px rgba(0,0,0,0.35);
 }
 
+
 :root[data-theme="light"]{
   --bg: #f6f8ff;
   --card: rgba(10, 20, 40, 0.06);
